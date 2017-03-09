@@ -1,0 +1,570 @@
+
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="树人网，江西理工大学，新生专题,2016新生">
+  <meta name="Description" content="江西理工大学树人网迎新专题">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="viewport" content="width=device-width" />
+  <title>欢迎16届新生---树人网</title>
+  
+  <link href="css/m.css" rel="stylesheet" type="text/css" />
+  <!-- 微信底部栏  所需JS  -->
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<!--  回到顶栏栏  所需JS -->
+<script src="js/manhuatoTop.1.0.js" type="text/javascript"></script>
+<!--<script src="js/common.js" type="text/javascript"></script>-->
+  <style type="text/css">
+  *{
+  margin:0px;padding:0px;
+  }
+	html,body
+	{
+		height:100%;
+		/*background:green;*/
+	}
+	img
+	{
+		vertical-align:middle;
+	}
+	/*正式css开始*/
+	li
+	{
+		list-style:none;
+	}
+	a
+	{
+		text-decoration:none;
+		font-size:14px;
+	}
+	/*直接指定body*/
+	#frame
+	{
+		max-width:640px;
+		margin:0 auto;
+		min-height:100%;
+		
+		/*background:red;*/
+		/*border:1px solid black;*/
+	}
+	header
+	{
+	width:100%;
+	/*height:150px;*/
+	height:auto;
+	/*background:blue;*/
+	}
+	#main
+	{
+		width:100%;
+		margin:0 auto;
+		min-height:100%;
+		/*height:1000px;*/
+		/*background:yellow;*/
+		/*border:1px solid black;*/
+	}
+	#line
+	{
+		width:100%;
+		background:white;
+		line-height:30px;
+		text-align:center;
+		border-radius:10px;
+		height:30px;
+		margin-top:10px;
+		margin-bottom:15px;
+	}
+	#line marquee
+	{
+		display:block;
+		padding-bottom:5px;	
+	}
+	#line>a
+	{
+		font-size:18px;
+		color:red;
+	}
+	.jianbian{ 
+
+width:100%; 
+
+height:auto; 
+/*/*1293dc   f8e8c8*/  */
+FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#efb952,endColorStr=#f8e8c8); /*IE 6 7 8*/ 
+
+background: -ms-linear-gradient(top, #efb952,  #f8e8c8);        /* IE 10 */
+
+background:-moz-linear-gradient(top,#efb952,#f8e8c8);/*火狐*/ 
+
+background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#efb952), to(#f8e8c8));/*谷歌*/ 
+
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#efb952), to(#f8e8c8));      /* Safari 4-5, Chrome 1-9*/
+
+background: -webkit-linear-gradient(top, #efb952, #f8e8c8);   /*Safari5.1 Chrome 10+*/
+
+background: -o-linear-gradient(top, #efb952, #f8e8c8);  /*Opera 11.10+*/
+
+} 
+  </style>
+  <style type="text/css">  
+.swipe {  
+    overflow: hidden;  
+    visibility: hidden;  
+    position: relative;  
+}  
+.swipe-wrap {  
+    overflow: hidden;  
+    position: relative;  
+}  
+.swipe-wrap > figure {  
+    float: left;  
+    width: 100%;  
+    position: relative;  
+}  
+#slider {  
+    max-width: 650px;/* 设置最大的宽度 */  
+    margin: 0px auto; /* 居中对齐 */  
+}  
+  
+figure {  
+    margin: 0;/* 对齐，四周宽度都为0，在轮播的时候，以整张图片进行移动 */  
+}  
+div.swipe {  
+    /*border: 1px solid blue;  */
+}  
+.page-swipe nav #position {  
+    text-align: center;  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;
+	/*background:green;*/
+}  
+.page-swipe nav #position li {  
+    display: inline-block;  
+    width: 10px;  
+    height: 10px;  
+    border-radius: 10px;  
+    background: #141414;  
+    box-shadow: inset 0 1px 3px black,0 0 1px 1px #202020;  
+    margin: 0 2px;  
+    cursor: pointer  
+}  
+.page-swipe nav #position li.on {  
+    box-shadow: inset 0 1px 3px -1px #28b4ea,0 1px 2px rgba(0,0,0,.5);  
+    background-color: #1293dc;  
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#1293dc),color-stop(100%,#0f6297));  
+    background-image: -webkit-linear-gradient(top,#1293dc,#0f6297);  
+    background-image: -moz-linear-gradient(top,#1293dc,#0f6297);  
+    background-image: -ms-linear-gradient(top,#1293dc,#0f6297);  
+    background-image: -o-linear-gradient(top,#1293dc,#0f6297);  
+    background-image: linear-gradient(top,#1293dc,#0f6297)  
+}  
+.swipe-scroll-text
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	font-size:16px;
+	height:30px;
+	
+	text-align:left;
+	line-height:30px;
+	background:#666;
+	filter:alpha(opacity=50);  
+	-moz-opacity:0.5;  
+	-khtml-opacity: 0.5;  
+	opacity: 0.5;
+	 z-index:999;
+	 
+	/* position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+  	*zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+ 
+}
+.swipe-scroll-text span
+{
+	position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值，保证字体颜色不透明 */
+	filter:alpha(opacity=100);  
+	  opacity: 1;  
+	color:white;
+	padding-left:10px;
+
+}
+</style>  
+<!--图标font-awesome所需的JS-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/font-awesome-ie7.min.css" media="all">
+<!--底部的所需的JS
+<link rel="stylesheet" type="text/css" href="css/home-menu-2.css" media="all" />-->
+  <script type="text/javascript">
+	     
+  </script>
+ </head>
+ <body>
+	<section id="frame"  class="jianbian">
+       
+            <div id="top">
+                 <!--上栏的横条-->
+                <a id="logo" href="javascript:window.history.back();"><img src="images/goback.png" align="top">
+               <!-- <span><i class="icon-home icon-3x" style="color:white;"></i></span>-->
+                 </a>
+                <!-- 中央的标题  -->
+                <a id="title">江西理工大学树人网</a>
+                <!--a id="search" href="search.jsp"><img src="images/search.png" align="top"></a-->
+                <span id="list">
+                    <a  href="index.html">
+                     <!--<span><i class="icon-reply icon-3x" style="color:white;"> </i> </span>-->
+                   <img src="images/home.png" align="top">
+                    </a>
+                  <!-- <a href="login.html"><img src="images/userlogin.png" align="top"></a>-->
+                </span>
+            </div>
+        <!--<div> </div>-->
+<!-- *******************轮播****************** -->
+		<header>
+					<div style="background:;">
+		<div class="page-swipe">
+		<div id="slider" class="swipe" style="visibility:visible;">  
+			<div class="swipe-wrap">  
+				<figure>  
+					<div class="face faceInner">  
+						<img src="images/xy5.jpg" width="100%" height="100%" />  
+                        <!----> <div   class="swipe-scroll-text">
+								<span>2016，我们从这里起航</span>
+								</div> 
+					</div>  
+				</figure>  
+				<figure>  
+					<div class="face faceInner">  
+						<img src="images/xy4.jpg" width="100%" height="100%" /> 
+                        <!----> <div  class="swipe-scroll-text">
+								<span>八角荷潭</span>
+								</div>  
+					</div>  
+				</figure>  
+				<figure>  
+					<div class="face faceInner">  
+						<img src="images/xy3.jpg" width="100%" height="100%" />  
+								<!----> <div  class="swipe-scroll-text">
+								<span>田径场</span>
+								</div> 
+					</div> 
+
+				</figure> 
+                <figure>  
+					<div class="face faceInner">  
+						<img src="images/xy2.jpg" width="100%" height="100%" />  
+								<!----> <div  class="swipe-scroll-text">
+								<span>图书馆</span>
+								</div> 
+					</div> 
+
+				</figure> 
+					
+			</div> 
+            
+            <!-- 浮动的Js滚动点
+<div style="position:absolute;
+bottom:0;
+width:100%;
+height:20px;
+background:gray;
+z-index:999;
+filter:alpha(opacity=50);  
+-moz-opacity:0.5;  
+-khtml-opacity: 0.5;  
+opacity: 0.5; z-index:999;
+	">
+	<nav>  
+		<ul id="position" >  
+		  <li class="on"></li>  
+		  <li class=""></li>  
+		  <li class=""></li>  
+		</ul>  
+	</nav>  
+</div>  -->
+		</div>  
+<!--轮播  所需JS-->
+		<script src="js/swipe.js"></script>  
+		<script>  
+		
+		var slider =  
+		  Swipe(document.getElementById('slider'), {  
+			auto: 2000,  
+			continuous: true,  
+			callback: function(pos) {  
+				var i = bullets.length;  
+				while(i--){  
+					bullets[i].className = ' ';  
+				}  
+				bullets[pos].className = 'on';  
+			}  
+		  });  
+		var bullets = document.getElementById('position').getElementsByTagName('li');  
+		
+		</script> 
+	</div>
+	</div>
+		</header>
+<!-- *****************轮播结束 ********************* -->
+<!-- 页面主体的部分  -->
+		<section id="main">
+        	<!--  开头的那横  横条 -->
+			<section id="line">
+				<marquee direction="left"  behavior="scroll" scrollamount="5.5" scrolldelay="0" loop="-1" height="20px"  hspace="0" vspace="0">
+                <img src="images/gao.gif"/><a href="http://szyx.jxust.edu.cn/stu/">&nbsp;班级查询宿舍已经开放</a>
+                </marquee>
+			</section>
+            <div class="" style="width:98%;margin:0 auto;">
+            	<div class="index"><!--中间主要部分-->
+            	<table width="100%" border="0" cellpadding="0" class="one">
+                	<tr>
+                    	 <td width="30"><a href="school.html"><img src='img/jj.png' width="60%"/><br />校区攻略</a></td>
+                         <td width="30"><a href="http://mp.weixin.qq.com/s?__biz=MzA5Njg5MTYxMA==&mid=206883114&idx=1&sn=caf4e008731ae0a60b7bb6d6004e08b4#wechat_redirect"><img src='img/home.png' width="60%"/><br />理工概况</a></td>
+                       
+                        <td width="30"><a href="pretice.html"><img src='img/fc.png' width="60%"/><br />关于军训</a></td>
+                        <td width="30"><a href="problem.html"><img src='img/421.png' width="60%"/><br />答疑汇编</a></td>
+                    </tr>
+                    <tr>
+                    	<td width="30"><a href="fresh.html"><img src='img/tz.png' width="60%"/><br />报道须知</a></td>
+                        <td width="30"><a href="http://www.weixin.jxustsrw.cn/jxustWX/news/news.php"><img src='img/zx.png' width="60%"/><br />理工资讯</a></td>
+                        
+                        <td width="30"><a href="convery.html"><img src='img/lyb.png' width="60%"/><br />交通路线</a></td>
+                        <td width="30"><a href="phone.html"><img src='img/bs.png' width="60%"/><br />关于其它</a></td>
+                    </tr>
+                </table>
+       			 </div>
+              </div>
+			<section>
+				
+			</section>
+		</section>
+		<footer>
+
+<!-- <form>
+<div>
+  <div class="input-prepend  icon-large">
+    <span class="add-on  icon-large" ><i class="icon-envelope  icon-large"></i></span>
+    <input class="span2  icon-large" type="text" placeholder="Email address">
+  </div>
+  <br>
+  <div class="input-prepend  icon-large">
+    <span class="add-on  icon-large"><i class="icon-key  icon-large"></i></span>
+    <input class="span2  icon-large" type="password" placeholder="Password">
+  </div>
+</form> -->
+<div class="footer">
+      <div id="footer" style="background:none;">
+      <a href="contact.html" class="">我要留言&nbsp;</a> <font color="#878787">|</font> 
+          <a href="http://www.jxustsrw.cn/" class=""> 树人网 </a> <font color="#878787">|</font> &nbsp;
+           <a href="http://www.yx.jxustsrw.cn/" class="">电脑版</a>
+            <p style="color:#bbb;font-size:14px;">江西理工大学树人网工作室 &copy; 版权所有 2003-2016</p>
+      </div>
+      <div id="footer">
+           
+      </div>
+ </div>
+		</footer>
+		<nav>
+
+<!--导航菜单后台设置的快捷菜单--><!-- 首页：刷新 
+		<div class="top_bar footer_bar" style="-webkit-transform:translate3d(0,0,0)">
+			<nav>
+				<ul class="top_menu">
+					<li onclick="location.reload();"><span></span></li>
+					<li><a href="tel:027-65681888"><span class="icon-phone"></span><label class="homemenu_text">电话</label></a></li>
+					<li><a href="tel:027-65681888"><span class="icon-phone"></span><label class="homemenu_text">电话</label></a></li>
+					<li><a href="tel:027-65681888"><span class="icon-phone"></span><label class="homemenu_text">电话</label></a></li>
+				</ul>
+			</nav>
+		</div>-->
+<!--结束-->
+
+		</nav>
+        
+	</section>
+    
+    
+    
+	<!-- ****************底部菜单*************************** -->
+    <!--<div>-->
+<div id="menu" style="position:fixed;bottom:0px;width:100%;height:44px;line-height:44px;z-index:999;background:url(images/menubg.png) repeat-x;">
+	<ul style="margin:0 auto;list-style-type:none;width:100%;max-width:500px;height:100%;">
+		<li><img class="img_front" src="images/front.png"><div class="menu_li"><img src="images/coin.png" width=10>&nbsp;新生专题</div><img class="line" src="images/line.png" width=1>
+		<span style="background-size:100%;">
+			<img src="images/navbg5.png" width=100%>
+			<div style="position:absolute;top:0px;left:0px;">
+			<a href="fresh.html">报道须知</a>
+			<a href="school.html">校区攻略</a>
+            <a href="problem.html">答疑汇编</a>
+			<a href="convey.html">交通路线</a>
+            <a href="pretice.html">关于军训</a>
+			</div>
+		</span>
+		</li>
+		<li><img class="img_front" src="images/front.png"><div class="menu_li"><img src="images/coin.png" width=10>&nbsp;理工之家</div>
+        <img class="line" src="images/line.png" width=1>
+		<span style="background-size:100%;">
+			<img src="images/navbg4.png" width=100%>
+			<div style="position:absolute;top:0px;left:0px;">
+			<a href="http://mp.weixin.qq.com/s?__biz=MzA5Njg5MTYxMA==&mid=206883114&idx=1&sn=caf4e008731ae0a60b7bb6d6004e08b4#wechat_redirect">理工概况</a>
+			<a href="http://www.weixin.jxustsrw.cn/jxustWX/news/news.php">理工资讯</a>
+			<a href="http://www.weixin.jxustsrw.cn/jxustWX/js_view/view.php">江理风采</a>
+			<a href="http://jiejing.qq.com/#pano=21071018131123105424800&heading=6&pitch=10&zoom=1&isappinstalled=-1&poi=0">环视理工</a>
+			</div>
+		</span>
+		</li>
+		<li><img class="img_front" src="images/front.png"><div class="menu_li"><img src="images/coin.png" width=10>&nbsp;树人家园</div>
+		<span style="background-size:100%;">
+			<img src="images/navbg4.png" width=100%>
+			<div style="position:absolute;top:0px;left:0px;">
+			<!--<a href="#">我的订单</a>-->
+
+			<a href="#">关于我们</a>
+			<a href="#">联系我们</a>
+			<a href="#">关联微信</a>
+			<a href="http://www.jxustsrw.cn/">进入主站</a>
+			</div>
+		</span>
+		</li>
+	</ul>
+</div>
+
+<div class="footer_front" style="position:fixed;width:100%;height:100%;top:0px;left:0px;z-index:888;display:none;"><img src="images/front.png" width="100%" height="100%"></div>
+<!--<img src="images/front.png" width="100%" height="100%">-->
+
+
+
+
+</div>
+<div>
+<style type="text/css">
+
+#menu ul li{float:left;width:33.3%;height:100%;text-align:center;position:relative;font-size:14px;}
+
+#menu ul li .line{position:absolute;top:0px;right:0px;z-index:30;}
+
+#menu ul li .menu_li{position:absolute;top:0px;left:0px;z-index:20;width:100%;height:100%;/*color:#454545;*/color:black;background:url(images/menubg.png) repeat-x;}
+
+#menu ul li .img_front{position:absolute;top:0px;left:0px;z-index:30;width:100%;height:100%;}
+
+#menu ul li .img_front img{width:100%;height:100%;}
+
+#menu ul li span{position:absolute;bottom:-300px;left:50%;width:104px;margin-left:-52px;height:auto;text-align:center;z-index:10;}
+
+#menu ul li span a{float:left;width:100%;height:43px;line-height:43px;color:black;text-decoration:none;}
+
+</style>
+
+<script>
+/*
+function beginTalk() {
+
+	var t = window.location.toString();
+
+	var newT = t.replace(new RegExp("&", "gm"), "<and>"); 
+
+	window.open("italk/index_m.jsp@fs_AccessAddress=" + newT, "talk");
+
+}
+*/
+window.onload = function(){
+
+	$('#menu ul li').each(function(j){
+
+		$('#menu ul li').eq(j).removeClass("on");
+
+		$('#menu ul li span').eq(j).animate({bottom:-$('#menu ul li span').eq(j).height()},100);
+
+	});
+
+}
+
+$('#menu ul li').each(function(i){
+
+	$(this).click(function(){
+
+		if($(this).attr("class")!="on"){
+
+			$('#menu ul .on span').animate({bottom:-$('#menu ul .on span').height()},200);
+
+			$('#menu ul .on').removeClass("on");
+
+			$(this).addClass("on");
+
+			$('#menu ul li span').eq(i).animate({bottom:35},200);
+
+			$('.footer_front').show();
+
+		}else{
+
+			$('#menu ul li span').eq(i).animate({bottom:-$('#menu ul li span').eq(i).height()},200);
+
+			$(this).removeClass("on");
+
+			$('.footer_front').hide();
+
+		}
+
+	});
+
+});
+
+$('.footer_front').click(function(){
+
+	$('#menu ul .on span').animate({bottom:-$('#menu ul .on span').height()},200);
+
+	$('#menu ul .on').removeClass("on");
+
+	$(this).hide();
+
+});
+
+</script>
+</div>
+<!-- /****totop** 还有所需的那俩个JS***/ -->
+
+
+<script type="text/javascript">
+$(function (){
+	
+	$('#list img').click(function (e) {
+
+		if(parseInt($('#info').css('right'))==0){
+
+			$('#info').animate({right:-200},200).css('display','none');
+
+			$('#frame').animate({left:0},200);
+
+		}else{
+
+			$('#info').animate({right:0},200).css({'display':'block','height':$('#frame').height()});
+
+			$('#frame').animate({left:-200},200);
+
+		}
+
+	});
+
+    $(window).manhuatoTop({
+
+        showHeight : 10,//设置滚动高度时显示
+
+        speed : 500 //返回顶部的速度以毫秒为单位
+
+    });
+
+});
+
+ 
+
+
+
+</script>
+ </body>
+</html>
